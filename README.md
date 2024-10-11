@@ -1,7 +1,9 @@
-# NTT-Stock-Price-Prediction-with-LSTM
+   #           **NTT-Stock-Price-Prediction-with-LSTM**
 
-                                              Overview of the NTT stock price project
-In this Traniee project, I used NTT stock price data to build a time series forecasting model. I began with exploratory data analysis (EDA) to understand the data and its patterns, and ultimately evaluated the accuracy of the model. I applied a Long Short-Term Memory (LSTM) neural network to predict stock prices and assessed its performance to verify accuracy, aiming to apply the model in practice.
+## Overview of the Time Series Forecasting Model for NTT Stock Prices
+In this trainee project, I developed a time series forecasting model using NTT stock price data. I began with exploratory data analysis (EDA) to uncover patterns, trends, and seasonality in the data. Using a Long Short-Term Memory (LSTM) neural network, I effectively captured long-term dependencies crucial for accurate stock price predictions.
+
+I conducted thorough data preprocessing, including handling missing values and scaling features, while creating additional variables like moving averages to enhance model performance. After evaluating various models, the LSTM demonstrated the best results, with a Root Mean Squared Error (RMSE) of 2.35, indicating a predicted decline in stock prices over the next 30 days. This project highlights the effectiveness of LSTM in time series forecasting, showcasing its ability to handle complex, non-linear relationships within stock price data.
 # Task Content
  # 1.	Read and analyze the Data
 Overview: To begin, I created a table of contents for the analysis and imported the necessary libraries to work with the NTT stock price data. I examined the data’s statistical properties, checked for trends and seasonality over time, and identified any outliers. The goal was to uncover patterns in the data that could inform the predictive modeling process.
