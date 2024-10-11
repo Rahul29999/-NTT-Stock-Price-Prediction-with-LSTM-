@@ -1,16 +1,14 @@
 # NTT-Stock-Price-Prediction-with-LSTM
 
-                           Overview of the NTT stock price project
+                         Overview of the NTT stock price project
 In this Traniee project, I used NTT stock price data to build a time series forecasting model. I began with exploratory data analysis (EDA) to understand the data and its patterns, and ultimately evaluated the accuracy of the model. I applied a Long Short-Term Memory (LSTM) neural network to predict stock prices and assessed its performance to verify accuracy, aiming to apply the model in practice.
 # Task Content
  # 1.	Read and analyze the Data
-Summary :  Make table of contents and Import libraries to Use NTT stock price data to check data statistics, detect trends and seasonality over time, and check for outliers.
-Goal : Identify trends in data and extract answers for predictive modeling.
+Overview: To begin, I created a table of contents for the analysis and imported the necessary libraries to work with the NTT stock price data. I examined the data’s statistical properties, checked for trends and seasonality over time, and identified any outliers. The goal was to uncover patterns in the data that could inform the predictive modeling process.
 # 2.	Data Visualization
-	overview:use seaborn  and matplot library to plot the Correlation Heatmap , historiogram plot 
-  and Feature Distribution of columns   
+  Overview: I used the Seaborn and Matplotlib libraries to create various visualizations. These included a correlation heatmap to understand relationships between features, and histogram plots to analyze the distribution of the data.
 # 3.	Data preprocessing and feature engineering.
-Overview : Perform preprocessing such as missing value handling,  and scaling to create features that are useful for stock price prediction. Goal : Prepare data to improve model accuracy.
+Overview :I performed essential preprocessing steps like handling missing values and scaling numerical features to prepare the data for modeling. Additionally, I created new features, such as moving averages and lagged values, to capture trends and patterns in stock prices. The goal was to ensure the data was well-prepared to improve model accuracy in predicting stock prices.
 # 4.	Model Selection and Training
 Overview :Using LSTM models for time series forecasting is advantageous because they are designed to handle sequential data, making them ideal for ordered time series. LSTMs effectively retain information over long periods, capturing long-term dependencies that are crucial in forecasting. They also mitigate the vanishing gradient problem often faced by traditional RNNs, allowing for better learning from extended sequences. LSTMs can manage variable-length input data and integrate additional influencing factors, such as exogenous variables, enhancing forecasting accuracy. Their high performance often surpasses traditional statistical methods, and they excel at modeling complex, non-linear relationships within the data. Overall, LSTMs are a powerful choice for time series forecasting due to these capabilities.
 # 5.	Evaluating the model and analyzing the results
