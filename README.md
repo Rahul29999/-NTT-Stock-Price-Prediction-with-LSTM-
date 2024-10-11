@@ -1,10 +1,10 @@
 # NTT-Stock-Price-Prediction-with-LSTM
 
                            Overview of the NTT stock price project
-In this training, you will use NTT stock price data to build a time series data forecasting model. You will begin with exploratory data analysis (EDA) of the data, and ultimately evaluate the accuracy of the model. You will use machine learning to predict stock prices and verify their accuracy, aiming to apply it in practice.
+In this Traniee project, I used NTT stock price data to build a time series forecasting model. I began with exploratory data analysis (EDA) to understand the data and its patterns, and ultimately evaluated the accuracy of the model. I applied a Long Short-Term Memory (LSTM) neural network to predict stock prices and assessed its performance to verify accuracy, aiming to apply the model in practice.
 # Task Content
  # 1.	Read and analyze the Data
-Summary :  make table of contents and Import libraries to Use NTT stock price data to check data statistics, detect trends and seasonality over time, and check for outliers.
+Summary :  Make table of contents and Import libraries to Use NTT stock price data to check data statistics, detect trends and seasonality over time, and check for outliers.
 Goal : Identify trends in data and extract answers for predictive modeling.
 # 2.	Data Visualization
 	overview:use seaborn  and matplot library to plot the Correlation Heatmap , historiogram plot 
