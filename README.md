@@ -8,7 +8,7 @@ The data underwent comprehensive preprocessing, including handling missing value
 
 ---
 
-## 📌 Task Content
+##  Task Content
 
 ### 1. Read and Analyze the Data
 
